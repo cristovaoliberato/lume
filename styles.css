@@ -51,6 +51,12 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: center;
 }
+.nav-logo .logo-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain; /* Mantém proporção sem cortar */
+}
+
 
 .nav-logo .logo-square {
     width: 40px;
